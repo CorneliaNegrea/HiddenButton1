@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Button Page</title>
+</head>
+<body>
+
+    <h2>Please insert the number of the buttons:</h2>
+    <input type="number" id="buttonsNr" min="3" max="100">
+    <button onclick="generateButtons()">Generate buttons</button>
+    <div id="buttonList"></div>
+    <p id="message" style="display: none;">No win button</p>
+    <p id="winnerMessage" style="display: none;">Winner button</p>
+    <script src="hiddenButton.js"></script>
+</body>
+</html>
